@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo App</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="section">
+        <div class="columns">
+          <div class="column">
+            <!-- Input -->
+            <div class="field has-addons">
+              <div class="control">
+                <input class="input" type="text" placeholder="Pasear el perro">
+              </div>
+              <div class="control">
+                <a class="button is-primary js-add-button">
+                  Agregar
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <!-- Filters -->
+            <a class="button is-info js-all-button filter-button" disabled="">Todas</a>
+            <a class="button is-info js-active-button filter-button">Activas</a>
+            <a class="button is-info js-completed-button filter-button">Completadas</a>
+          </div>
+        </div>
+
+        <!-- Todos -->
+        <ul class="todo-list"></ul>
+      </div>
+    </div>
+
+    <script src="/src.a2b27638.js"></script>
+  </body>
+</html>
